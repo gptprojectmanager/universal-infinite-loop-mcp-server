@@ -1,0 +1,116 @@
+{
+  "mcpServers": {
+    "infinite-loop": {
+      "command": "node",
+      "args": ["/home/sam/infinite-loop-mcp-server/dist/server.js"],
+      "description": "Universal Infinite Agentic Loop MCP Server - Goal-agnostic parallel orchestration framework",
+      "disabled": false
+    }
+  }
+}
+
+// Usage Examples:
+
+// 1. UI Component Generation
+/*
+{
+  "tool": "infinite_orchestrate",
+  "parameters": {
+    "specification": {
+      // Use ui-components-spec.json content here
+    },
+    "outputDirectory": "./generated-components",
+    "mode": {
+      "type": "BATCH",
+      "count": 10,
+      "batchSize": 5
+    },
+    "config": {
+      "contextThreshold": 0.85,
+      "gracefulShutdown": true,
+      "progressiveSophistication": true
+    }
+  }
+}
+*/
+
+// 2. Documentation Generation
+/*
+{
+  "tool": "infinite_orchestrate", 
+  "parameters": {
+    "specification": {
+      // Use documentation-spec.json content here
+    },
+    "outputDirectory": "./api-docs",
+    "mode": {
+      "type": "INFINITE",
+      "count": "INFINITE"
+    }
+  }
+}
+*/
+
+// 3. Specification Validation
+/*
+{
+  "tool": "spec_validate",
+  "parameters": {
+    "userSpec": {
+      "name": "Custom Analysis Reports",
+      "description": "Generate business analysis reports",
+      "goals": ["Clear insights", "Actionable recommendations"]
+    },
+    "domain": {
+      "category": "ANALYSIS",
+      "subcategory": "Business Reports",
+      "targetAudience": "Business Stakeholders",
+      "complexity": "MODERATE"
+    },
+    "outputRequirements": {
+      "format": "pdf",
+      "structure": "Professional report format"
+    }
+  }
+}
+*/
+
+// 4. Wave Planning
+/*
+{
+  "tool": "wave_plan",
+  "parameters": {
+    "existingWork": [
+      {
+        "number": 1,
+        "filePath": "./component_1.tsx", 
+        "summary": "Basic search input component",
+        "innovationDimensions": ["core_functionality"],
+        "qualityScore": 85,
+        "uniquenessScore": 90
+      }
+    ],
+    "sophisticationLevel": {
+      "level": 2,
+      "name": "Intermediate",
+      "description": "Enhanced features with improved UX",
+      "innovationTargets": ["autocomplete", "visual_design"],
+      "qualityExpectations": ["smooth_interactions", "clear_hierarchy"]
+    },
+    "targetCount": 5,
+    "contextBudget": 50000
+  }
+}
+*/
+
+// 5. Context Monitoring
+/*
+{
+  "tool": "context_monitor",
+  "parameters": {
+    "waveId": "550e8400-e29b-41d4-a716-446655440000",
+    "capacityThreshold": 0.9,
+    "gracefulShutdown": true
+  }
+}
+*/

@@ -1,0 +1,146 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440001",
+  "name": "Comprehensive API Documentation",
+  "description": "Generate thorough API documentation with diverse explanation styles, comprehensive examples, and interactive elements for developer onboarding and reference",
+  "domain": {
+    "category": "DOCUMENTATION",
+    "subcategory": "API Reference",
+    "targetAudience": "Software Developers",
+    "complexity": "COMPLEX"
+  },
+  "version": "1.0.0",
+  "outputRequirements": {
+    "format": "md",
+    "structure": "Structured markdown with clear sections, code examples, and proper linking",
+    "namingPattern": "api_documentation_{number}.md",
+    "qualityStandards": [
+      "Complete API coverage with all endpoints documented",
+      "Clear, concise explanations suitable for developers",
+      "Comprehensive code examples in multiple languages",
+      "Proper markdown formatting and structure",
+      "SEO-optimized with appropriate headings and meta information"
+    ]
+  },
+  "innovationDimensions": [
+    "explanation_clarity",
+    "example_comprehensiveness",
+    "interactive_elements",
+    "visual_aids",
+    "searchability",
+    "onboarding_flow",
+    "troubleshooting_guidance",
+    "best_practices"
+  ],
+  "sophisticationLevels": [
+    {
+      "level": 1,
+      "name": "Basic",
+      "description": "Standard API reference with basic endpoint documentation",
+      "innovationTargets": [
+        "clear_endpoint_descriptions",
+        "basic_code_examples",
+        "fundamental_structure"
+      ],
+      "qualityExpectations": [
+        "complete_endpoint_coverage",
+        "readable_explanations",
+        "working_code_examples"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Intermediate", 
+      "description": "Enhanced documentation with multiple examples and better organization",
+      "innovationTargets": [
+        "multiple_language_examples",
+        "improved_organization",
+        "error_handling_documentation",
+        "use_case_scenarios"
+      ],
+      "qualityExpectations": [
+        "comprehensive_examples",
+        "clear_organization",
+        "practical_use_cases",
+        "good_error_guidance"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Advanced",
+      "description": "Sophisticated documentation with interactive elements and advanced guidance",
+      "innovationTargets": [
+        "interactive_api_explorer",
+        "advanced_tutorials",
+        "performance_guidance",
+        "integration_patterns"
+      ],
+      "qualityExpectations": [
+        "interactive_elements",
+        "expert_level_guidance",
+        "comprehensive_tutorials",
+        "production_ready_examples"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Revolutionary",
+      "description": "Next-generation documentation with AI-powered assistance and adaptive content",
+      "innovationTargets": [
+        "ai_powered_examples",
+        "adaptive_content",
+        "contextual_help",
+        "automated_testing_integration"
+      ],
+      "qualityExpectations": [
+        "cutting_edge_approach",
+        "personalized_experience",
+        "intelligent_assistance",
+        "industry_defining"
+      ]
+    }
+  ],
+  "constraints": [
+    "Must be valid markdown format",
+    "Must cover all API endpoints comprehensively",
+    "Must include working code examples",
+    "Must be suitable for both beginners and experts",
+    "Must follow documentation best practices",
+    "Must be maintainable and updateable"
+  ],
+  "evolutionPattern": "LINEAR",
+  "progressionStrategy": "Each iteration should build upon previous documentation approaches while exploring new ways to explain, demonstrate, and guide developers through API usage",
+  "successCriteria": [
+    "Complete coverage of API functionality",
+    "Clear and accurate explanations",
+    "Working code examples that can be copy-pasted",
+    "Logical organization and flow",
+    "Demonstrates innovation in assigned dimension",
+    "Suitable for target audience skill level"
+  ],
+  "validationRules": [
+    {
+      "type": "SYNTAX",
+      "description": "Valid markdown syntax and structure",
+      "validator": "Markdown parser validation and structure analysis",
+      "severity": "ERROR"
+    },
+    {
+      "type": "FUNCTIONAL",
+      "description": "Code examples are functional and accurate",
+      "validator": "Code example syntax checking and API accuracy verification",
+      "severity": "ERROR"
+    },
+    {
+      "type": "QUALITY",
+      "description": "Documentation quality meets standards for clarity and completeness",
+      "validator": "Readability analysis, completeness check, and quality assessment",
+      "severity": "WARNING"
+    },
+    {
+      "type": "UNIQUENESS",
+      "description": "Offers unique perspective or approach to API documentation",
+      "validator": "Innovation analysis and differentiation from existing documentation styles",
+      "severity": "WARNING"
+    }
+  ]
+}

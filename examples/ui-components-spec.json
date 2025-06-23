@@ -1,0 +1,146 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "name": "Modern React Search Components",
+  "description": "Generate diverse search interface components with various interaction patterns, visual designs, and accessibility features for modern React applications",
+  "domain": {
+    "category": "UI",
+    "subcategory": "React Components",
+    "targetAudience": "Frontend Developers",
+    "complexity": "MODERATE"
+  },
+  "version": "1.0.0",
+  "outputRequirements": {
+    "format": "tsx",
+    "structure": "Single TypeScript React component file with proper imports, interface definitions, and export",
+    "namingPattern": "SearchComponent_{number}.tsx",
+    "qualityStandards": [
+      "TypeScript compliant with proper type definitions",
+      "Accessible with ARIA labels and keyboard navigation",
+      "Responsive design with mobile-first approach",
+      "Performance optimized with React best practices",
+      "Well-documented with JSDoc comments"
+    ]
+  },
+  "innovationDimensions": [
+    "interaction_patterns",
+    "visual_design",
+    "accessibility",
+    "performance",
+    "user_experience",
+    "animation_effects",
+    "data_handling",
+    "customization"
+  ],
+  "sophisticationLevels": [
+    {
+      "level": 1,
+      "name": "Basic",
+      "description": "Simple search input with basic functionality",
+      "innovationTargets": [
+        "core_search_functionality",
+        "basic_styling",
+        "fundamental_accessibility"
+      ],
+      "qualityExpectations": [
+        "functional_search_input",
+        "basic_responsive_design",
+        "keyboard_accessible"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Intermediate",
+      "description": "Enhanced search with autocomplete and improved UX",
+      "innovationTargets": [
+        "autocomplete_functionality",
+        "improved_visual_design",
+        "enhanced_user_feedback",
+        "loading_states"
+      ],
+      "qualityExpectations": [
+        "smooth_autocomplete",
+        "clear_visual_hierarchy",
+        "intuitive_interactions",
+        "proper_loading_indicators"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Advanced",
+      "description": "Sophisticated search with filters, suggestions, and advanced features",
+      "innovationTargets": [
+        "advanced_filtering",
+        "intelligent_suggestions",
+        "complex_state_management",
+        "performance_optimization"
+      ],
+      "qualityExpectations": [
+        "highly_performant",
+        "feature_rich",
+        "excellent_ux",
+        "production_ready"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Revolutionary",
+      "description": "Cutting-edge search experience with AI-powered features",
+      "innovationTargets": [
+        "ai_powered_suggestions",
+        "natural_language_processing",
+        "predictive_search",
+        "contextual_intelligence"
+      ],
+      "qualityExpectations": [
+        "industry_leading",
+        "innovative_approach",
+        "exceptional_user_experience",
+        "breakthrough_functionality"
+      ]
+    }
+  ],
+  "constraints": [
+    "Must be valid TypeScript React component",
+    "Must follow React hooks conventions",
+    "Must be accessible (WCAG 2.1 AA compliant)",
+    "Must work in modern browsers (Chrome, Firefox, Safari, Edge)",
+    "Must not use external UI libraries (build from scratch)",
+    "Must include proper error handling"
+  ],
+  "evolutionPattern": "CREATIVE_BURST",
+  "progressionStrategy": "Each iteration should explore unique interaction paradigms and visual approaches while building upon search functionality patterns from previous iterations",
+  "successCriteria": [
+    "Component renders without errors",
+    "Search functionality works correctly",
+    "Meets accessibility standards",
+    "Responsive across device sizes",
+    "Demonstrates clear innovation in assigned dimension",
+    "Code is maintainable and well-documented"
+  ],
+  "validationRules": [
+    {
+      "type": "SYNTAX",
+      "description": "Valid TypeScript and React syntax",
+      "validator": "TypeScript compiler validation and React component structure check",
+      "severity": "ERROR"
+    },
+    {
+      "type": "FUNCTIONAL",
+      "description": "Search functionality works as expected",
+      "validator": "Component renders and basic search operations function correctly",
+      "severity": "ERROR"
+    },
+    {
+      "type": "QUALITY",
+      "description": "Meets quality standards for sophistication level",
+      "validator": "Code quality, performance, and UX evaluation against level expectations",
+      "severity": "WARNING"
+    },
+    {
+      "type": "UNIQUENESS",
+      "description": "Sufficiently different from existing iterations",
+      "validator": "Innovation dimension exploration and differentiation from previous components",
+      "severity": "WARNING"
+    }
+  ]
+}
